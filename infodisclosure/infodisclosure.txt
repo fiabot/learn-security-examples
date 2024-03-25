@@ -1,3 +1,8 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+It ensure that the user cannot insert their own query into the request. 
+
 Which CIA property does tampering violate?
+confidentiality.
+
 What additional security mechanisms can you incorporate?
+Ensure that the user requesting information is already authenticated. 
