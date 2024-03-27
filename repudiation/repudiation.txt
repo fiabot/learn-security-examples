@@ -1,2 +1,5 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+In the insecure version, there is very little information that is logged which could help identify attackers. The secure version tracks the ip address, time, and requests sent by users, which can be useful in indentifcation when an attack occurs.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+Add an auditing program that looks for suspisous activity that can notify people when an attack occurs. 
