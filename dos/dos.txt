@@ -1,2 +1,5 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+The insecure version allows user to give inputs that, when queried, causes an execption that crashes the server. By surrounding the code with try/catch, when an exception occurs the server remains up. 
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+Use a rate limiter to make sure users cannot spam the server with requests that slow/stop legitmiate requests. 
