@@ -1,1 +1,1 @@
-The insecure program allowed users to send input in html that was then run when we added it to our page. The secure version converted all html elements into the string version, which meant that the input was treated as a string. 
+The insecure program allowed users to send input in html that was then run when we added it to our page. The secure version converted all html elements into the string version, which meant that the input was treated as a string.

@@ -1,0 +1,5 @@
+The insecure version doesn't require the user to authenticated before sendind a role update request. This means anyone can pretend they are an admin, and the change the role other other users. The secure version ensures the user is both authenticated and have the role of admin. 
+
+
+This can be made more secure by protecting the session id through httponly and only letting the setting same site to true. 
+You can also add two factor authentication, by introducing another token that is stored in memory. 
